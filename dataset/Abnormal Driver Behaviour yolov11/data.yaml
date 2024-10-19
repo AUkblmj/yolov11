@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Cigarette', 'Drinking', 'Eating', 'Phone', 'Seatbelt']
+
+roboflow:
+  workspace: university-exrks
+  project: abnormal-driver-behaviour
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-exrks/abnormal-driver-behaviour/dataset/10
